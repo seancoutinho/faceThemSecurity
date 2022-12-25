@@ -3285,6 +3285,41 @@ input[type=button].btn-block {
   pointer-events: none;
 }
 
+.face-them-logo {
+  width: 4.5rem;
+  height: 3.5rem;
+}
+
+.images > img {
+  width: 250px;
+  height: 250px;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 1rem;
+}
+
+.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 300px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .input-group {
   position: relative;
   display: flex;
