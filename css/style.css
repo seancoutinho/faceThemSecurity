@@ -3300,6 +3300,12 @@ input[type=button].btn-block {
   gap: 1rem;
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .scroll {
     margin: 4px, 4px;
     padding: 4px;
